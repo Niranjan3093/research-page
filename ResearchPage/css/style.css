@@ -4,7 +4,7 @@
 }
 
 body{
-  background-color: rgb(115, 120, 121);
+  background-color: rgb(0, 18, 51);
   padding: 20px;
 }
 .container{
@@ -20,12 +20,12 @@ body{
   display: inline-block;
 }
 .first-comment{
-  background-color: rgb(4, 20, 20)  ;
+  background-color: rgb(0, 24, 69)  ;
   order: 1;
 }
 
 .second-comment{
-  background-color: rgb(2, 11, 8);
+  background-color: rgb(0, 24, 69);
   order: 2;
 }
 
@@ -36,7 +36,9 @@ body{
   width: 100%;
   background-image: url("/images/patrick-perkins-ETRPjvb0KM0-unsplash.jpg");
   background-size: cover;
+  border-radius: 10px;
 }
+/* comment */
 
 .research main h2{
   text-align: center;
@@ -62,7 +64,7 @@ body{
 #logo4{
   height: 100px;
 }
-#h2{
+h2{
   font-size: larger;
   padding: 20px ;
   color: white;
@@ -81,10 +83,7 @@ body{
 .head{
   margin-top: 20px;
   padding:10px;
-  background-color: black;
+  background-color: rgb(51, 65, 92);
   border-radius: 10px;
   text-align: center;
 }
-
-
-  
