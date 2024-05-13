@@ -30,7 +30,12 @@ body{
 }
 
 .heading{
+  padding-top: 100px;
   text-align: center;
+  height: 350px;
+  width: 100%;
+  background-image: url("/images/patrick-perkins-ETRPjvb0KM0-unsplash.jpg");
+  background-size: cover;
 }
 
 .research main h2{
@@ -51,8 +56,34 @@ body{
 #logo2{
   height: 100px;
 }
-.youtube{
-  display: flex;
+#logo3{
+  height: 100px;
+}
+#logo4{
+  height: 100px;
+}
+#h2{
+  font-size: larger;
+  padding: 20px ;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+#main{
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 10px;
+  padding-top: 30px;
+  padding-left: 20px;
+  color: #1A1423;
+}
+.head{
+  margin-top: 20px;
+  padding:10px;
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
 }
 
 
