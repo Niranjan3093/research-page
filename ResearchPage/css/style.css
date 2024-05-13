@@ -1,0 +1,59 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  background-color: rgb(115, 120, 121);
+  padding: 20px;
+}
+.container{
+  align-items: center;
+  display: flex;
+}
+.first-comment, .second-comment{
+  padding: 25px;
+  color: white;
+  font-size: 18px;
+  margin: 20px;
+  border-radius: 25px;
+  display: inline-block;
+}
+.first-comment{
+  background-color: rgb(4, 20, 20)  ;
+  order: 1;
+}
+
+.second-comment{
+  background-color: rgb(2, 11, 8);
+  order: 2;
+}
+
+.heading{
+  text-align: center;
+}
+
+.research main h2{
+  text-align: center;
+}
+.images{
+  display: flex;
+  width: 33%  ;
+  margin: 30px;
+  
+}
+#logo{
+  height: 100px;
+}
+#logo1{
+  height: 100px;
+}
+#logo2{
+  height: 100px;
+}
+.youtube{
+  display: flex;
+}
+
+
+  
