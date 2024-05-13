@@ -44,16 +44,16 @@ body{
   text-align: center;
 }
 .images{
-  display: flex;
-  width: 33%  ;
-  margin: 30px;
+ 
+  width:100%  ;
+  margin:30px;
   
 }
 #logo{
   height: 100px;
 }
 #logo1{
-  height: 100px;
+  height: 100px
 }
 #logo2{
   height: 100px;
@@ -86,4 +86,20 @@ h2{
   background-color: rgb(51, 65, 92);
   border-radius: 10px;
   text-align: center;
+}
+.yt{
+  display: flex;
+  color: white;
+}
+.w3{
+  display: flex;
+}
+.dribble{
+  display: flex;
+}
+.iic{
+  display: flex;
+}
+.harry{
+  display: flex;
 }
