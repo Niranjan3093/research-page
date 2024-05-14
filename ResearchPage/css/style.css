@@ -8,8 +8,8 @@ body{
   padding: 20px;
 }
 .container{
-  align-items: center;
   display: flex;
+
 }
 .first-comment, .second-comment{
   padding: 25px;
@@ -17,7 +17,6 @@ body{
   font-size: 18px;
   margin: 20px;
   border-radius: 25px;
-  display: inline-block;
 }
 .first-comment{
   background-color: rgb(0, 24, 69)  ;
@@ -27,6 +26,18 @@ body{
 .second-comment{
   background-color: rgb(0, 24, 69);
   order: 2;
+}
+
+.first-comment,.second-comment h3{
+  text-align: center;
+  font-size: 40px;
+}
+
+.paragraph{
+  font-size: 40px;
+  margin: 20px;
+  padding: 10px;
+  align-items: center;
 }
 
 .heading{
@@ -182,7 +193,6 @@ h2{
   height: 200px;
   width: 200px;
   margin-right:40px ;
-}
 
 
 
