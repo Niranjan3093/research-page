@@ -1,196 +1,268 @@
-*{
+/* Universal selector to reset padding and margin for all elements */
+* {
   padding: 0%;
   margin: 0%;
 }
 
-body{
+/* Styling for the body element */
+body {
+  /* Background color set to a dark blue shade */
   background-color: rgb(0, 18, 51);
+  /* Adding padding to the body element */
   padding: 20px;
 }
-.container{
-  display: flex;
 
+/* Container for the sim and dif elements */
+.container {
+  /* Displaying the container as a flexbox */
+  display: flex;
 }
-.first-comment, .second-comment{
+
+/* Styling for the sim element */
+.sim {
+  /* Adding padding to the sim element */
   padding: 25px;
+  /* Setting the text color to white */
   color: white;
+  /* Setting the font size to 18px */
   font-size: 18px;
+  /* Adding margin to the sim element */
   margin: 20px;
+  /* Adding border radius to the sim element */
   border-radius: 25px;
+  /* Setting the width of the sim element to 50% */
   width: 50%;
-}
-.first-comment{
-  background-color: rgb(0, 24, 69)  ;
+  /* Setting the background color to a darker blue shade */
+  background-color: rgb(0, 24, 69);
+  /* Setting the order of the sim element to 1 */
   order: 1;
 }
 
-.second-comment{
+/* Styling for the dif element */
+.dif {
+  /* Adding padding to the dif element */
+  padding: 25px;
+  /* Setting the text color to white */
+  color: white;
+  /* Setting the font size to 18px */
+  font-size: 18px;
+  /* Adding margin to the dif element */
+  margin: 20px;
+  /* Adding border radius to the dif element */
+  border-radius: 25px;
+  /* Setting the width of the dif element to 50% */
+  width: 50%;
+  /* Setting the background color to a darker blue shade */
   background-color: rgb(0, 24, 69);
+  /* Setting the order of the dif element to 2 */
   order: 2;
 }
 
-.first-comment,.second-comment h3{
+/* Styling for the h3 element within sim and dif elements */
+.sim,.dif h3 {
+  /* Center-aligning the text */
   text-align: center;
+  /* Setting the font size to 40px */
   font-size: 40px;
 }
 
-.paragraph{
+/* Styling for the paragraph element */
+.paragraph {
+  /* Setting the font size to 40px */
   font-size: 40px;
+  /* Adding margin to the paragraph element */
   margin: 20px;
+  /* Adding padding to the paragraph element */
   padding: 10px;
+  /* Aligning items to the center */
   align-items: center;
 }
-.image-container{
+
+/* Styling for the image-container element */
+.image-container {
+  /* Setting the position to relative */
   position: relative;
+  /* Setting the overflow to hidden */
   overflow: hidden;
 }
-.image{
+
+/* Styling for the image element */
+.image {
+  /* Displaying the image as a block */
   display: block;
 }
-.image-overlay{
+
+/* Styling for the image-overlay element */
+.image-overlay {
+  /* Setting the position to absolute */
   position: absolute;
+  /* Setting the top and left properties to 0 */
   top: 0;
   left: 0;
+  /* Displaying the image-overlay as a flexbox */
   display: flex;
+  /* Aligning items to the center */
   align-items: center;
+  /* Justifying content to the center */
   justify-content: center;
+  /* Setting the width and height to 100% */
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
-.image-container :hover{
+
+/* Styling for the image-container element on hover */
+.image-container :hover {
+  /* Adding a blur effect to the image-container on hover */
   backdrop-filter: blur(15px);
 }
-.image-text{
+
+/* Styling for the image-text element */
+.image-text {
+  /* Setting the background color to black */
   background-color: black;
+  /* Removing the outline */
   outline: none;
+  /* Adding a white border */
   border: 1px solid white;
+  /* Setting the text color to white */
   color: white;
+  /* Setting the font family to Quicksand */
   font-family: 'Quicksand', sans-serif;
+  /* Setting the font size to 70px */
   font-size: 70px;
+  /* Setting the font weight to bold */
   font-weight: bold;
+  /* Removing text decoration */
   text-decoration: none;
+  /* Transforming the text to uppercase */
   text-transform: uppercase;
+  /* Adding letter spacing */
   letter-spacing: 10px;
+  /* Adding padding */
   padding: 20px;
+  /* Setting the transition for the background color */
   transition: background-color 0.25s;
 }
-.image-container img{
+
+/* Setting the width and height for the image element within the image-container element */
+.image-container img {
   width: 100%;
-  height:350px;
+  height: 350px;
 }
 
-.research main h2{
+/* Setting the text alignment for the h2 element within the research main element */
+.research main h2 {
   text-align: center;
 }
-.images{
- color: white;
+
+/* Setting the color, font size, margin, and padding for the images class */
+.images {
+  color: white;
   font-size: 30px;
-  margin:30px;
+  margin: 30px;
   padding: 30px;
-  
 }
 
-#logo1{
-  height: 100px
-}
-#logo2{
-  height: 100px;
-}
-#logo3{
-  height: 100px;
-}
-#logo4{
-  height: 100px;
-}
-h2{
+/* Setting the font size, padding, color, and letter spacing for the h2 element */
+h2 {
   font-size: larger;
-  padding: 20px ;
+  padding: 20px;
   color: white;
   font-size: 40px;
   letter-spacing: 5px;
 }
-#main{
-  font-size: 100px;
-  text-transform: uppercase;
-  font-weight: 900;
-  letter-spacing: 10px;
-  padding-top: 30px;
-  padding-left: 20px;
-  color: #1A1423;
-}
-.head{
+
+/* Setting the margin top, padding, background color, border radius, and text alignment for the head class */
+.head {
   margin-top: 20px;
-  padding:10px;
+  padding: 10px;
   background-color: rgb(51, 65, 92);
   border-radius: 10px;
   text-align: center;
 }
-h3{
+
+/* Setting the text decoration for the h3 element */
+h3 {
   text-decoration: underline;
 }
-.yt{
+
+/* Setting the position, display, align items, margin, and color for the yt class */
+.yt {
   position: relative;
   display: flex;
   align-items: center;
   margin: 20px;
   color: white;
 }
-.youtube img{
+
+/* Setting the border radius, height, width, and margin right for the youtube img element */
+.youtube img {
   border-radius: 10px;
   height: 300px;
   width: 300px;
-  margin-right:20px ;
+  margin-right: 20px;
 }
 
-
-.w3{
+/* Setting the display, align items, margin, and color for the w3 class */
+.w3 {
   display: flex;
   align-items: center;
   margin: 20px;
   color: white;
 }
-.w3schools img{
+
+/* Setting the height, width, border radius, and margin left for the w3schools img element */
+.w3schools img {
   height: 100px;
   width: 100px;
   border-radius: 10px;
   margin-left: 20px;
 }
 
-.dribble{
+/* Setting the display, align items, margin, and color for the dribble class */
+.dribble {
   display: flex;
   align-items: center;
   margin: 20px;
   color: white;
 }
-.dribble img{
+
+/* Setting the border radius, height, width, and margin right for the dribble img element */
+.dribble img {
   border-radius: 10px;
   height: 300px;
   width: 300px;
-  margin-right:20px ;
+  margin-right: 20px;
 }
 
-.iic{
+/* Setting the display, align items, margin, and color for the iic class */
+.iic {
   display: flex;
   align-items: center;
   margin: 20px;
   color: white;
 }
-.iic1 img{
+
+/* Setting the height, width, border radius, and margin left for the iic1 img element */
+.iic1 img {
   height: 300px;
   width: 300px;
   border-radius: 10px;
   margin-left: 20px;
 }
 
-.harry{
+/* Setting the display, align items, margin, and color for the harry class */
+.harry {
   display: flex;
   align-items: center;
   margin: 20px;
   color: white;
 }
-.cwh img{
+
+/* Setting the border radius, height, width, and margin right for the cwh img element */
+.cwh img {
   border-radius: 10px;
   height: 200px;
   width: 200px;
-  margin-right:40px ;
+  margin-right: 40px;
 }
