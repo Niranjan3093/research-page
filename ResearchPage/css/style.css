@@ -6,12 +6,12 @@
 
 /* Styling for the body element */
 body {
+  font-family: "Poppins", sans-serif;
   /* Background color set to a dark blue shade */
   background-color: rgb(0, 18, 51);
   /* Adding padding to the body element */
-  padding: 20px;
+  
 }
-
 /* Container for the sim and dif elements */
 .container {
   /* Displaying the container as a flexbox */
@@ -34,8 +34,6 @@ body {
   width: 50%;
   /* Setting the background color to a darker blue shade */
   background-color: rgb(0, 24, 69);
-  /* Setting the order of the sim element to 1 */
-  order: 1;
 }
 
 /* Styling for the dif element */
@@ -44,8 +42,7 @@ body {
   padding: 25px;
   /* Setting the text color to white */
   color: white;
-  /* Setting the font size to 18px */
-  font-size: 18px;
+  
   /* Adding margin to the dif element */
   margin: 20px;
   /* Adding border radius to the dif element */
@@ -54,8 +51,6 @@ body {
   width: 50%;
   /* Setting the background color to a darker blue shade */
   background-color: rgb(0, 24, 69);
-  /* Setting the order of the dif element to 2 */
-  order: 2;
 }
 
 /* Styling for the h3 element within sim and dif elements */
@@ -66,17 +61,15 @@ body {
   font-size: 40px;
 }
 
+
 /* Styling for the paragraph element */
 .paragraph {
-  /* Setting the font size to 40px */
   font-size: 40px;
-  /* Adding margin to the paragraph element */
-  margin: 20px;
-  /* Adding padding to the paragraph element */
-  padding: 10px;
-  /* Aligning items to the center */
-  align-items: center;
+  padding: 20px;
+  text-align: center;
 }
+
+
 
 /* Styling for the image-container element */
 .image-container {
@@ -84,6 +77,12 @@ body {
   position: relative;
   /* Setting the overflow to hidden */
   overflow: hidden;
+}
+
+/* Styling for the image-container element on hover */
+.image-container :hover {
+  /* Adding a blur effect to the image-container on hover */
+  backdrop-filter: blur(15px);
 }
 
 /* Styling for the image element */
@@ -110,12 +109,6 @@ body {
   height: 100%;
 }
 
-/* Styling for the image-container element on hover */
-.image-container :hover {
-  /* Adding a blur effect to the image-container on hover */
-  backdrop-filter: blur(15px);
-}
-
 /* Styling for the image-text element */
 .image-text {
   /* Setting the background color to black */
@@ -129,7 +122,7 @@ body {
   /* Setting the font family to Quicksand */
   font-family: 'Quicksand', sans-serif;
   /* Setting the font size to 70px */
-  font-size: 70px;
+  font-size: 30px;
   /* Setting the font weight to bold */
   font-weight: bold;
   /* Removing text decoration */
@@ -147,7 +140,7 @@ body {
 /* Setting the width and height for the image element within the image-container element */
 .image-container img {
   width: 100%;
-  height: 350px;
+  height: 550px;
 }
 
 /* Setting the text alignment for the h2 element within the research main element */
@@ -168,7 +161,7 @@ h2 {
   font-size: larger;
   padding: 20px;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 5px;
 }
 
@@ -186,83 +179,48 @@ h3 {
   text-decoration: underline;
 }
 
-/* Setting the position, display, align items, margin, and color for the yt class */
-.yt {
-  position: relative;
+/* Setting the position, display, align items, margin, and color for the classes */
+.yt, .w3, .dribble, .daraz, .mypay-container, .unsplash-container {
   display: flex;
   align-items: center;
-  margin: 20px;
+  margin: 50px;
   color: white;
 }
 
-/* Setting the border radius, height, width, and margin right for the youtube img element */
-.youtube img {
+/* Setting the border radius, height, width, and margin right */
+.youtube img, .w3schools img{
   border-radius: 10px;
-  height: 300px;
-  width: 300px;
-  margin-right: 20px;
-}
-
-/* Setting the display, align items, margin, and color for the w3 class */
-.w3 {
-  display: flex;
-  align-items: center;
-  margin: 20px;
-  color: white;
-}
-
-/* Setting the height, width, border radius, and margin left for the w3schools img element */
-.w3schools img {
-  height: 100px;
-  width: 100px;
-  border-radius: 10px;
-  margin-left: 20px;
-}
-
-/* Setting the display, align items, margin, and color for the dribble class */
-.dribble {
-  display: flex;
-  align-items: center;
-  margin: 20px;
-  color: white;
+  height: 200px;
+  width: 200px;
+  margin-right: 40px;
 }
 
 /* Setting the border radius, height, width, and margin right for the dribble img element */
 .dribble img {
   border-radius: 10px;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   margin-right: 20px;
 }
 
-/* Setting the display, align items, margin, and color for the iic class */
-.iic {
-  display: flex;
-  align-items: center;
-  margin: 20px;
-  color: white;
-}
-
 /* Setting the height, width, border radius, and margin left for the iic1 img element */
-.iic1 img {
-  height: 300px;
-  width: 300px;
+.daraz1 img {
+  height: 150px;
+  width: 250px;
   border-radius: 10px;
   margin-left: 20px;
 }
 
-/* Setting the display, align items, margin, and color for the harry class */
-.harry {
-  display: flex;
-  align-items: center;
-  margin: 20px;
-  color: white;
+/* Setting the border radius, height, width, and margin right for the cwh img element */
+.mypay img {
+  border-radius: 10px;
+  height: 150px;
+  width: 250px;
+  margin-right: 40px;
 }
 
-/* Setting the border radius, height, width, and margin right for the cwh img element */
-.cwh img {
-  border-radius: 10px;
+.unsplash img{
   height: 200px;
-  width: 200px;
-  margin-right: 40px;
+  width: 300px;
+  margin-left: 40px;
 }
