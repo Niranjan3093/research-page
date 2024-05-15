@@ -14,11 +14,38 @@
 
     <!-- A link to the stylesheet for the page -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/hf.css">
 
 </head>
 
 <!-- This is the body of the HTML document, where we include the main content of the page -->
 <body>
+    <!-- Container for navigation bar -->
+    <nav class="nav">
+        <!-- Inserting logo -->
+        <img src="images/logo.png" alt="MartFlix Logo" class="nav__logo " id="logo" />
+        <!-- Container for inserting names of pages -->
+        <ul class ="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" >Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" >About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" >Products</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" >Blog</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" >Research</a>
+          </li>
+          <li class="nav__item">
+            <a class ="nav__link nav__link--button" >Shop now</a>
+          </li>
+        </ul>
+      </nav>
 
     <!-- This is a container for the main content of the page -->
     <div class="research main">
@@ -197,6 +224,34 @@
          </div>
     </div>
 
+    <!-- A link to the script for the page -->
     <script src="/javascript/script.js"></script>
+
+    <!-- Container for footer -->
+    <footer class="footer">
+        <ul class="footer__nav">
+          <li class="footer__item">
+            <a class="footer__link" href="#">Home</a>
+          </li>
+          <li class ="footer__item">
+            <a class = "footer__link" href="#">About</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Products</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Blog</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Research</a>
+            </li>
+              
+        </ul>
+        <img src="images/logo.png" alt="MartFlix Logo" class="footer__logo" />
+        <p class="footer__copyright">
+          &copy; Copyright by
+          <a class="footer__link" href="#">MartFlix</a>
+        </p>
+       </footer>
 </body>
 </html>
