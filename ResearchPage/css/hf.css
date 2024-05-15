@@ -1,13 +1,17 @@
+/* Resetting default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  body {
+}
+
+/* Setting default font for the body */
+body {
     font-family: "Poppins", sans-serif;
-    /* background-color: #222; */
-  }
-  .nav {
+}
+
+/* Styling the navigation bar */
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,20 +19,28 @@
     width: 100%;
     padding: 0 60px;
     background-color: #f3f3f3;
-  }
-  .nav a {
+}
+
+/* Styling the links in the navigation bar */
+.nav a {
     text-decoration: none;
     color: #222;
-  }
-  .nav__links {
+}
+
+/* Styling the list of links in the navigation bar */
+.nav__links {
     display: flex;
     align-items: center;
     list-style: none;
-  }
-  .nav__item {
+}
+
+/* Styling the individual links in the navigation bar */
+.nav__item {
     margin-left: 40px;
-  }
-  .nav__link--button {
+}
+
+/* Styling the button link in the navigation bar */
+.nav__link--button {
     background-color: #5ec576;
     font-size: 16px;
     font-family: inherit;
@@ -38,37 +50,50 @@
     border-radius: 99px;
     cursor: pointer;
     display: inline-block;
-  }
-  .footer {
+}
+
+/* Styling the footer */
+.footer {
     padding: 99px 30px;
     background-color: #37383d;
-  }
-  .footer__nav {
+}
+
+/* Styling the list of links in the footer */
+.footer__nav {
     list-style: none;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-  }
-  .footer__item {
+}
+
+/* Styling the individual links in the footer */
+.footer__item {
     margin-right: 40px;
-  }
-  .footer__link {
+}
+
+/* Styling the links in the footer */
+.footer__link {
     font-size: 16px;
     color: #eee;
     text-decoration: none;
-  }
-  .footer__logo {
+}
+
+/* Styling the logo in the footer */
+.footer__logo {
     height: 50px;
     display: block;
     margin: 0 auto;
     margin-bottom: 50px;
-  }
-  .footer__copyright {
+}
+
+/* Styling the copyright text in the footer */
+.footer__copyright {
     font-size: 14px;
     color: #aaa;
     text-align: center;
-  }
-  .footer__copyright .footer__link {
+}
+
+/* Styling the links in the copyright text in the footer */
+.footer__copyright.footer__link {
     font-size: 14px;
-  }
-  
+}
